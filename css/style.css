@@ -43,7 +43,6 @@ body {
 }
 
 .main-content {
-    /* width: 500px; */
     margin: 0px 30px;
     display: flex;
     align-items: center;
@@ -63,18 +62,33 @@ body {
 }
 
 .main-content .project-content {
+    font-size: 14px;
     display: flex;
     flex-direction: column;
     justify-content: start;
 }
 
 .footer {
-    /* background-color: #ddf8e8; */
+    background-color: #f9fbb2;
     padding: 30px;
     margin: 30px 0px auto;
     max-width: 600px;
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
+}
+
+.contact {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.information-contact {
+    font-size: 14px;
+    display: flex;
+    
 }
 
 .footer .left {
