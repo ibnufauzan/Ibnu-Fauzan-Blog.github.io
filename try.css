@@ -10,7 +10,8 @@ body {
 .conatiner {
     width: 100px;
     height: 100px;
-    font-family: arial
+    font-family: arial;
     box-sizing: border-box;
+    display: block;
 }
 
