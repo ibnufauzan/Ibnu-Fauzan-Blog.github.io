@@ -32,12 +32,36 @@ nav ul li a{
 header section {
     margin: auto;
     padding-top: 20px;
-    width: 80%;
-    background-color: bisque;
+    background-color: #EEF0F2;
 }
 
 header aside {
+    width: 80%;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.header-section {
+    /* background-color: blue; */
+    max-width: 60%;
+}
+
+.header-section h1 {
+    font-size: 25px;
+    padding: 20px 0px;
+}
+
+.header-section p {
+    padding-bottom: 10px;
+}
+
+.img-header {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center
 }
 
 @media screen and (max-width: 800px) {
@@ -52,5 +76,9 @@ header aside {
 
     aside {
         flex-direction: column;
+    }
+
+    header aside {
+        width: 100%;
     }
 }
