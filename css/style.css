@@ -44,8 +44,8 @@ header aside {
 }
 
 .header-section {
-    /* background-color: blue; */
-    max-width: 60%;
+    background-color: aquamarine;
+    margin-right: 50px;
 }
 
 .header-section h1 {
@@ -78,7 +78,7 @@ header aside {
         flex-direction: column;
     }
 
-    header aside {
+    .header-section {
         width: 100%;
     }
 }
