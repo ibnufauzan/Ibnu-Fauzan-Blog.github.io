@@ -4,29 +4,49 @@
 }
 
 header {
-    width: 100%;  
+    width: 100%;
 }
 
-nav {
-    /* width: 100%; */
-    background-color: #094D92;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+/* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
 }
 
-nav ul{
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    list-style: none;
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+    display: none;
 }
 
-nav ul li a{
+/* Style navigation menu links */
+.topnav a {
     color: white;
+    padding: 14px 16px;
     text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+    background-color: #04AA6D;
+    color: white;
 }
 
 header section {
@@ -68,7 +88,7 @@ header aside {
 .project {
     width: 100%;
     height: 580px;
-    /* background-color: #03CEA4; */
+    background-color: #03CEA4;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -101,6 +121,7 @@ header aside {
 }
 
 footer {
+    color: white;
     background-color: #094D92;
     display: flex;
     flex-direction: row;
@@ -109,13 +130,16 @@ footer {
     padding: 20px 0;
 }
 
-.footer-left, .footer-right {
+.footer-left,
+.footer-right {
     background-color: #094D92;
     width: 400px;
-
-    
 }
 
+.footer-right img {
+    width: 30px;
+    height: 30px;
+}
 
 
 

@@ -7,24 +7,32 @@
     <title>Blog Ibnu Fauzan</title>
 
     <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <script src="script.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
 </head>
 
 <body>
 
     <div class="container">
-        <!-- <details> -->
-        <summary>Click</summary>
         <header>
-            <nav>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Portofolio</a></li>
-                    <li><a href="">Resume</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-            </nav>
+            <!-- Top Navigation Menu -->
+            <div class="topnav">
+                <a href="#home" class="active">Logo</a>
+                <!-- Navigation links (hidden by default) -->
+                <div id="myLinks">
+                    <a href="#news">News</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#about">About</a>
+                </div>
+                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
 
             <section>
                 <aside>
@@ -92,7 +100,9 @@
                 </ul>
             </div>
         </footer>
-        <!-- </details> -->
+
+        <p></p>
+        </details>
     </div>
 
 </body>
