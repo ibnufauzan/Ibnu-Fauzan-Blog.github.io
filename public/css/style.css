@@ -564,24 +564,16 @@ video {
   display: flex;
 }
 
+.h-1\/2 {
+  height: 50%;
+}
+
 .h-96 {
   height: 24rem;
 }
 
 .h-\[150px\] {
   height: 150px;
-}
-
-.h-1 {
-  height: 0.25rem;
-}
-
-.h-1\/2 {
-  height: 50%;
-}
-
-.h-1\/5 {
-  height: 20%;
 }
 
 .w-2\/5 {
@@ -608,40 +600,28 @@ video {
   width: 67%;
 }
 
-.w-screen {
-  width: 100vw;
-}
-
-.w-full {
-  width: 100%;
-}
-
 .justify-end {
   justify-content: flex-end;
-}
-
-.gap-7 {
-  gap: 1.75rem;
 }
 
 .gap-3 {
   gap: 0.75rem;
 }
 
-.overflow-hidden {
-  overflow: hidden;
+.gap-7 {
+  gap: 1.75rem;
 }
 
-.rounded-full {
-  border-radius: 9999px;
+.overflow-hidden {
+  overflow: hidden;
 }
 
 .rounded {
   border-radius: 0.25rem;
 }
 
-.rounded-lg {
-  border-radius: 0.5rem;
+.rounded-full {
+  border-radius: 9999px;
 }
 
 .rounded-t {
@@ -649,9 +629,9 @@ video {
   border-top-right-radius: 0.25rem;
 }
 
-.rounded-t-lg {
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
+.bg-\[\#283044\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(40 48 68 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#2E4057\] {
@@ -667,24 +647,6 @@ video {
 .bg-green-800 {
   --tw-bg-opacity: 1;
   background-color: rgb(22 101 52 / var(--tw-bg-opacity));
-}
-
-.bg-\[\] {
-  background-color: ;
-}
-
-.bg-\[\#\] {
-  background-color: #;
-}
-
-.bg-\[\#283044\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(40 48 68 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#dde1e6\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(221 225 230 / var(--tw-bg-opacity));
 }
 
 .p-20 {
@@ -716,19 +678,14 @@ video {
   line-height: 1.75rem;
 }
 
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-extralight {
@@ -760,12 +717,4 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.opacity-25 {
-  opacity: 0.25;
-}
-
-.hover\:w-1\/2:hover {
-  width: 50%;
 }
